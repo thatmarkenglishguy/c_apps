@@ -6,3 +6,8 @@ OBJ = realpath.o
 
 realpath: $(OBJ)
 	  gcc -o $@ $^ $(CFLAGS)
+
+clean:
+	rm -f $(OBJ)
+
+
